@@ -5,7 +5,7 @@
             <div class="lg:flex lg:items-center">
                 <div class="flex items-center justify-between">
                     <div>
-                        <a class="text-2xl font-bold text-red-500 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-red--700 dark:hover:text-gray-300" href="#">COSMIC-CHILI</a>
+                        <a class="text-2xl font-bold text-red-500 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-red--700 dark:hover:text-gray-300" href="#">SPICY-ROCKET</a>
                     </div>
 
                     <!-- Mobile menu button -->
@@ -19,7 +19,6 @@
                 </div>
 
                 <div class="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
-                    <a href="#" class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">Histoire</a>
                     <a href="#" class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">Produits</a>
                     <a href="#" class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">Goodies</a>
                     <a href="#" class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">Nos avis</a>
