@@ -3,6 +3,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     'HIconTest': typeof import("../components/HIcon.test.ts")['default'],
     'HIcon': typeof import("../components/HIcon.vue")['default'],
+    'TFooter': typeof import("../components/TFooter.vue")['default'],
+    'TNavBar': typeof import("../components/TNavBar.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -11,6 +13,8 @@ declare module 'vue' {
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyHIconTest': typeof import("../components/HIcon.test.ts")['default'],
     'LazyHIcon': typeof import("../components/HIcon.vue")['default'],
+    'LazyTFooter': typeof import("../components/TFooter.vue")['default'],
+    'LazyTNavBar': typeof import("../components/TNavBar.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -21,6 +25,8 @@ declare module 'vue' {
 }
 export const HIconTest: typeof import("../components/HIcon.test.ts")['default']
 export const HIcon: typeof import("../components/HIcon.vue")['default']
+export const TFooter: typeof import("../components/TFooter.vue")['default']
+export const TNavBar: typeof import("../components/TNavBar.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -29,6 +35,8 @@ export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/com
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyHIconTest: typeof import("../components/HIcon.test.ts")['default']
 export const LazyHIcon: typeof import("../components/HIcon.vue")['default']
+export const LazyTFooter: typeof import("../components/TFooter.vue")['default']
+export const LazyTNavBar: typeof import("../components/TNavBar.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

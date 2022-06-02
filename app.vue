@@ -1,8 +1,10 @@
 <template>
   <div>
+    <TNavBar />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <TFooter />
   </div>
 </template>
 
