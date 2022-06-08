@@ -114,8 +114,14 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /components/FullHero.vue ($id_e410c770)
 // - /components/GridHero.vue ($id_364c4e69)
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/imports.mjs ($id_19b22eb3)
@@ -2685,23 +2691,273 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
 // --------------------
 const $id_a08c7fdb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/goodies.vue?macro=true");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/notice.vue?macro=true");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/products.vue?macro=true");
 
 __vite_ssr_exports__.default = [
+  {
+    name: "goodies",
+    path: "/goodies",
+    file: "/home/tboot/Work/NUXT_COSMIC_CHILI/pages/goodies.vue",
+    children: [],
+    meta: __vite_ssr_import_0__.meta,
+    alias: __vite_ssr_import_0__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/goodies.vue')
+  },
   {
     name: "index",
     path: "/",
     file: "/home/tboot/Work/NUXT_COSMIC_CHILI/pages/index.vue",
     children: [],
-    meta: __vite_ssr_import_0__.meta,
-    alias: __vite_ssr_import_0__.meta?.alias || [],
+    meta: __vite_ssr_import_1__.meta,
+    alias: __vite_ssr_import_1__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  },
+  {
+    name: "notice",
+    path: "/notice",
+    file: "/home/tboot/Work/NUXT_COSMIC_CHILI/pages/notice.vue",
+    children: [],
+    meta: __vite_ssr_import_2__.meta,
+    alias: __vite_ssr_import_2__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/notice.vue')
+  },
+  {
+    name: "products",
+    path: "/products",
+    file: "/home/tboot/Work/NUXT_COSMIC_CHILI/pages/products.vue",
+    children: [],
+    meta: __vite_ssr_import_3__.meta,
+    alias: __vite_ssr_import_3__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/products.vue')
   }
 ];
+}
+
+
+// --------------------
+// Request: /pages/goodies.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
+// Dependencies: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_1a55745f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/goodies.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/goodies.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/FullHero.vue
+// Parents: 
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e410c770 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+    class: "w-full bg-center bg-cover h-[32rem]",
+    style: {"background-image":"url(images/chili.jpg)"}
+  }, _attrs))}><div class="flex items-center justify-center w-full h-full"><div class="text-center"><h1 class="text-2xl font-semibold text-white uppercase lg:text-3xl">Découvrez nos <span class="text-green-600">RECETTES</span></h1><button class="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-green-600 rounded-md lg:w-auto hover:bg-green-500 focus:outline-none focus:bg-green-600">Voir nos produits</button></div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/FullHero.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/components/FullHero.vue"]]);
+}
+
+
+// --------------------
+// Request: /node_modules/vue/server-renderer/index.js
+// Parents: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/TNavBar.vue ($id_1c0acb6c)
+// - /components/TFooter.vue ($id_be08bdeb)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///home/tboot/Work/NUXT_COSMIC_CHILI/node_modules/vue/server-renderer/index.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"/home/tboot/Work/NUXT_COSMIC_CHILI/node_modules/vue/server-renderer/index.js\".")
+  })
+
+
+// --------------------
+// Request: /@id/plugin-vue:export-helper
+// Parents: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/TNavBar.vue ($id_1c0acb6c)
+// - /components/TFooter.vue ($id_be08bdeb)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+__vite_ssr_exports__.default = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+}
+;
+}
+
+
+// --------------------
+// Request: /components/GridHero.vue
+// Parents: 
+// - /pages/goodies.vue?macro=true ($id_1a55745f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/notice.vue?macro=true ($id_e69d95a9)
+// - /pages/products.vue?macro=true ($id_5ea83f38)
+// - /pages/goodies.vue ($id_e2e7a3d9)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/notice.vue ($id_1303ccd0)
+// - /pages/products.vue ($id_b29f91be)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_364c4e69 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" }, _attrs))}><div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"><h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"><span class="relative inline-block"><svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"><defs><pattern id="3071a3ad-db4a-4cbe-ac9a-47850b69e4b7" x="0" y="0" width=".135" height=".30"><circle cx="1" cy="1" r=".7"></circle></pattern></defs><rect fill="url(#3071a3ad-db4a-4cbe-ac9a-47850b69e4b7)" width="52" height="24"></rect></svg><span class="relative text-green-500">Venez</span></span> à la découverte de SPICY-ROCKET </h2><p class="text-base text-gray-700 md:text-lg"> Cette succulante marque de sauce au chili qui vous satélisera directement dans l&#39;espace </p></div><div class="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto"><div class="flex flex-col justify-center"><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div><div><h6 class="mb-2 font-semibold leading-5"> Une histoire pas du tout familiale </h6><p class="text-sm text-gray-900"> C&#39;est l&#39;histoire de plusieurs amis réunis autour du chili ! La sauce était trop douce l&#39;ambiance trop terrestre, cosmic-chili est née. </p><hr class="w-full my-6 border-green-500"></div></div><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div></div><div><h6 class="mb-2 font-semibold leading-5">Des produits venus tout droit de l&#39;espace</h6><p class="text-sm text-gray-900"> Bon la on abuse un peu mais par contre ca vous y envoyer et ca on peut l&#39;affirmer ! Nous utilisons les meilleurs piments pour un goût et une intensité sans égal. </p><hr class="w-full my-6 border-green-500"></div></div><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div></div><div><h6 class="mb-2 font-semibold leading-5">Décollez sur l&#39;échelle de scoville</h6><p class="text-sm text-gray-900"> Notre sauce est à la hauteur, le serez-vous ? Elle propulse quiconque avec ses notes pimentés </p></div></div></div><div class="grid grid-cols-2 gap-5"><img class="object-cover w-full h-56 col-span-2 rounded shadow-lg" src="images/chili.jpg" alt=""><img class="object-cover w-full h-48 rounded shadow-lg" src="images/chilili.jpg" alt=""><img class="object-cover w-full h-48 rounded shadow-lg" src="images/ail.jpg" alt=""></div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/GridHero.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/components/GridHero.vue"]]);
 }
 
 
@@ -2755,140 +3011,147 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 
 // --------------------
-// Request: /components/FullHero.vue
+// Request: /pages/notice.vue?macro=true
 // Parents: 
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/index.vue ($id_cca58e97)
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
 // Dependencies: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
-const $id_e410c770 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const $id_e69d95a9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
-    class: "w-full bg-center bg-cover h-[32rem]",
-    style: {"background-image":"url(images/chili.jpg)"}
-  }, _attrs))}><div class="flex items-center justify-center w-full h-full"><div class="text-center"><h1 class="text-2xl font-semibold text-white uppercase lg:text-3xl">Découvrez nos <span class="text-green-600">RECETTES</span></h1><button class="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-green-600 rounded-md lg:w-auto hover:bg-green-500 focus:outline-none focus:bg-green-600">Voir nos produits</button></div></div></div>`)
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
 }
 
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/FullHero.vue")
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/notice.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/components/FullHero.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/notice.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
 
 
 // --------------------
-// Request: /node_modules/vue/server-renderer/index.js
+// Request: /pages/products.vue?macro=true
 // Parents: 
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
+// Dependencies: 
 // - /components/FullHero.vue ($id_e410c770)
 // - /components/GridHero.vue ($id_364c4e69)
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/index.vue ($id_cca58e97)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/TNavBar.vue ($id_1c0acb6c)
-// - /components/TFooter.vue ($id_be08bdeb)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///home/tboot/Work/NUXT_COSMIC_CHILI/node_modules/vue/server-renderer/index.js")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"/home/tboot/Work/NUXT_COSMIC_CHILI/node_modules/vue/server-renderer/index.js\".")
-  })
-
-
-// --------------------
-// Request: /@id/plugin-vue:export-helper
-// Parents: 
-// - /components/FullHero.vue ($id_e410c770)
-// - /components/GridHero.vue ($id_364c4e69)
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/index.vue ($id_cca58e97)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/TNavBar.vue ($id_1c0acb6c)
-// - /components/TFooter.vue ($id_be08bdeb)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-__vite_ssr_exports__.default = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-}
-;
-}
-
-
-// --------------------
-// Request: /components/GridHero.vue
-// Parents: 
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/index.vue ($id_cca58e97)
-// Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
-const $id_364c4e69 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const $id_5ea83f38 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" }, _attrs))}><div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"><h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"><span class="relative inline-block"><svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"><defs><pattern id="3071a3ad-db4a-4cbe-ac9a-47850b69e4b7" x="0" y="0" width=".135" height=".30"><circle cx="1" cy="1" r=".7"></circle></pattern></defs><rect fill="url(#3071a3ad-db4a-4cbe-ac9a-47850b69e4b7)" width="52" height="24"></rect></svg><span class="relative text-green-500">Venez</span></span> à la découverte de SPICY-ROCKET </h2><p class="text-base text-gray-700 md:text-lg"> Cette succulante marque de sauce au chili qui vous satélisera directement dans l&#39;espace </p></div><div class="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto"><div class="flex flex-col justify-center"><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div><div><h6 class="mb-2 font-semibold leading-5"> Une histoire pas du tout familiale </h6><p class="text-sm text-gray-900"> C&#39;est l&#39;histoire de plusieurs amis réunis autour du chili ! La sauce était trop douce l&#39;ambiance trop terrestre, cosmic-chili est née. </p><hr class="w-full my-6 border-green-500"></div></div><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div></div><div><h6 class="mb-2 font-semibold leading-5">Des produits venus tout droit de l&#39;espace</h6><p class="text-sm text-gray-900"> Bon la on abuse un peu mais par contre ca vous y envoyer et ca on peut l&#39;affirmer ! Nous utilisons les meilleurs piments pour un goût et une intensité sans égal. </p><hr class="w-full my-6 border-green-500"></div></div><div class="flex"><div class="mr-4"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-red-50"><img src="images/puce_pim.png"></div></div></div><div><h6 class="mb-2 font-semibold leading-5">Décollez sur l&#39;échelle de scoville</h6><p class="text-sm text-gray-900"> Notre sauce est à la hauteur, le serez-vous ? Elle propulse quiconque avec ses notes pimentés </p></div></div></div><div class="grid grid-cols-2 gap-5"><img class="object-cover w-full h-56 col-span-2 rounded shadow-lg" src="images/chili.jpg" alt=""><img class="object-cover w-full h-48 rounded shadow-lg" src="images/chilili.jpg" alt=""><img class="object-cover w-full h-48 rounded shadow-lg" src="images/ail.jpg" alt=""></div></div></div>`)
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
 }
 
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/GridHero.vue")
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/products.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/components/GridHero.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/products.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/goodies.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
+// Dependencies: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e2e7a3d9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/goodies.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/goodies.vue"]]);
 }
 
 
@@ -2936,6 +3199,100 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/notice.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
+// Dependencies: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_1303ccd0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/notice.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/notice.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/products.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs ($id_a08c7fdb)
+// Dependencies: 
+// - /components/FullHero.vue ($id_e410c770)
+// - /components/GridHero.vue ($id_364c4e69)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b29f91be = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/FullHero.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/GridHero.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_FullHero = __vite_ssr_import_0__.default
+  const _component_GridHero = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_FullHero, null, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_GridHero, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/products.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/tboot/Work/NUXT_COSMIC_CHILI/pages/products.vue"]]);
 }
 
 
@@ -3811,9 +4168,9 @@ const _sfc_main = {
   expose();
 
 const navigation = [
-  { name: 'Produits', href: '#' },
-  { name: 'Vos avis', href: '#' },
-  { name: 'Goodies', href: '#' },
+  { name: 'Produits', href: 'products'},
+  { name: 'Vos avis', href: 'notice'},
+  { name: 'Goodies', href: 'goodies'},
 ]
 
 const __returned__ = { navigation }
@@ -3828,6 +4185,8 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_RouterLink = __vite_ssr_import_0__.resolveComponent("RouterLink")
+
   _push(`<header${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-white" }, _attrs))}><nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top"><div class="w-full py-6 flex items-center justify-between border-b border-white lg:border-none"><div class="flex items-center"><a href="#"><span class="sr-only">Spicy-Rocket</span><img class="h-10 w-auto" src="/images/logochili.png" alt=""></a><div class="hidden ml-10 space-x-8 lg:block"><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($setup.navigation, (link) => {
     _push(`<a${
@@ -3838,11 +4197,24 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   })
   _push(`<!--]--></div></div><div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2"><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/fb.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/insta.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/twitter.gif"></a></div></div><div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden"><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($setup.navigation, (link) => {
-    _push(`<a${
-      __vite_ssr_import_1__.ssrRenderAttr("href", link.href)
-    } class="text-base font-medium text-black hover:text-green-500">${
-      __vite_ssr_import_1__.ssrInterpolate(link.name)
-    }</a>`)
+    _push(`<a${__vite_ssr_import_1__.ssrRenderAttr("href", link.href)} class="text-base font-medium text-black hover:text-green-500">`)
+    _push(__vite_ssr_import_1__.ssrRenderComponent(_component_RouterLink, {
+      to: {name: link.href},
+      "aria-label": link.name,
+      title: link.name
+    }, {
+      default: __vite_ssr_import_0__.withCtx((_, _push, _parent, _scopeId) => {
+        if (_push) {
+          _push(`${__vite_ssr_import_1__.ssrInterpolate(link.name)}`)
+        } else {
+          return [
+            __vite_ssr_import_0__.createTextVNode(__vite_ssr_import_0__.toDisplayString(link.name), 1 /* TEXT */)
+          ]
+        }
+      }),
+      _: 2 /* DYNAMIC */
+    }, _parent))
+    _push(`</a>`)
   })
   _push(`<!--]--></div></nav></header>`)
 }
@@ -3962,7 +4334,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 // --------------------
 const $id_f8b2993b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.sr-only{clip:rect(0,0,0,0);border-width:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.left-0{left:0}.z-0{z-index:0}.col-span-2{grid-column:span 2/span 2}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-2{margin-bottom:.5rem;margin-top:.5rem}.mx-2{margin-left:.5rem;margin-right:.5rem}.mt-4{margin-top:1rem}.mb-10{margin-bottom:2.5rem}.mb-6{margin-bottom:1.5rem}.-mt-8{margin-top:-2rem}.-ml-20{margin-left:-5rem}.mr-4{margin-right:1rem}.mb-3{margin-bottom:.75rem}.mb-2{margin-bottom:.5rem}.mt-2{margin-top:.5rem}.mt-6{margin-top:1.5rem}.mb-8{margin-bottom:2rem}.ml-10{margin-left:2.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-\\[32rem\\]{height:32rem}.h-full{height:100%}.h-10{height:2.5rem}.h-56{height:14rem}.h-48{height:12rem}.h-6{height:1.5rem}.w-full{width:100%}.w-32{width:8rem}.w-10{width:2.5rem}.w-6{width:1.5rem}.w-auto{width:auto}.max-w-xl{max-width:36rem}.max-w-lg{max-width:32rem}.max-w-screen-lg{max-width:1024px}.max-w-screen-xl{max-width:1280px}.max-w-screen-md{max-width:768px}.max-w-xs{max-width:20rem}.max-w-7xl{max-width:80rem}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-8{gap:2rem}.gap-5{gap:1.25rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded{border-radius:.25rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94/var(--tw-border-opacity))}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity))}.border-transparent{border-color:transparent}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cover{background-size:cover}.bg-center{background-position:50%}.fill-current{fill:currentColor}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-16{padding-bottom:4rem;padding-top:4rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.pt-8{padding-top:2rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.font-semibold{font-weight:600}.font-medium{font-weight:500}.font-bold{font-weight:700}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.capitalize{text-transform:capitalize}.leading-none{line-height:1}.leading-5{line-height:1.25rem}.tracking-tight{letter-spacing:-.025em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.outline{outline-style:solid}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-200{transition-duration:.2s}.hover\\:border-black:hover{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.hover\\:bg-green-500:hover{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.hover\\:bg-indigo-50:hover{--tw-bg-opacity:1;background-color:rgb(238 242 255/var(--tw-bg-opacity))}.hover\\:bg-opacity-75:hover{--tw-bg-opacity:0.75}.hover\\:text-gray-800:hover{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-gray-600:hover{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.hover\\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.hover\\:text-indigo-50:hover{--tw-text-opacity:1;color:rgb(238 242 255/var(--tw-text-opacity))}.hover\\:text-green-500:hover{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.focus\\:bg-green-600:focus{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.focus\\:text-gray-600:focus{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark\\:hover\\:text-white:hover,.dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark\\:hover\\:text-gray-300:hover{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark\\:hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark\\:hover\\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark\\:focus\\:text-gray-400:focus{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}}@media (min-width:640px){.sm\\:mx-auto{margin-left:auto;margin-right:auto}.sm\\:block{display:block}.sm\\:max-w-xl{max-width:36rem}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-12{padding-top:3rem}.sm\\:text-center{text-align:center}.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width:768px){.md\\:mx-auto{margin-left:auto;margin-right:auto}.md\\:mb-12{margin-bottom:3rem}.md\\:max-w-full{max-width:100%}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:text-lg{font-size:1.125rem;line-height:1.75rem}}@media (min-width:1024px){.lg\\:-mx-4{margin-left:-1rem;margin-right:-1rem}.lg\\:mx-4{margin-left:1rem;margin-right:1rem}.lg\\:-mx-2{margin-left:-.5rem;margin-right:-.5rem}.lg\\:-ml-28{margin-left:-7rem}.lg\\:-mt-10{margin-top:-2.5rem}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:flex{display:flex}.lg\\:hidden{display:none}.lg\\:w-auto{width:auto}.lg\\:w-32{width:8rem}.lg\\:max-w-screen-xl{max-width:1280px}.lg\\:max-w-2xl{max-width:42rem}.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\\:flex-row{flex-direction:row}.lg\\:items-center{align-items:center}.lg\\:justify-between{justify-content:space-between}.lg\\:border-none{border-style:none}.lg\\:px-8{padding-left:2rem;padding-right:2rem}.lg\\:py-20{padding-bottom:5rem;padding-top:5rem}.lg\\:px-16{padding-left:4rem;padding-right:4rem}.lg\\:text-3xl{font-size:1.875rem;line-height:2.25rem}}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.sr-only{clip:rect(0,0,0,0);border-width:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.left-0{left:0}.z-0{z-index:0}.col-span-2{grid-column:span 2/span 2}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-bottom:1.5rem;margin-top:1.5rem}.my-2{margin-bottom:.5rem;margin-top:.5rem}.mx-2{margin-left:.5rem;margin-right:.5rem}.mt-4{margin-top:1rem}.mb-10{margin-bottom:2.5rem}.mb-6{margin-bottom:1.5rem}.-mt-8{margin-top:-2rem}.-ml-20{margin-left:-5rem}.mr-4{margin-right:1rem}.mb-3{margin-bottom:.75rem}.mb-2{margin-bottom:.5rem}.ml-10{margin-left:2.5rem}.mt-6{margin-top:1.5rem}.mb-8{margin-bottom:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-\\[32rem\\]{height:32rem}.h-full{height:100%}.h-10{height:2.5rem}.h-56{height:14rem}.h-48{height:12rem}.h-6{height:1.5rem}.w-full{width:100%}.w-32{width:8rem}.w-10{width:2.5rem}.w-6{width:1.5rem}.w-auto{width:auto}.max-w-xl{max-width:36rem}.max-w-lg{max-width:32rem}.max-w-screen-lg{max-width:1024px}.max-w-screen-xl{max-width:1280px}.max-w-screen-md{max-width:768px}.max-w-xs{max-width:20rem}.max-w-7xl{max-width:80rem}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-8{gap:2rem}.gap-5{gap:1.25rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded{border-radius:.25rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-cover{background-size:cover}.bg-center{background-position:50%}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-16{padding-bottom:4rem;padding-top:4rem}.py-8{padding-bottom:2rem;padding-top:2rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-4{padding-bottom:1rem;padding-top:1rem}.pt-8{padding-top:2rem}.pt-10{padding-top:2.5rem}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.font-semibold{font-weight:600}.font-medium{font-weight:500}.font-bold{font-weight:700}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-5{line-height:1.25rem}.tracking-tight{letter-spacing:-.025em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-200{transition-duration:.2s}.hover\\:border-black:hover{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.hover\\:bg-green-500:hover{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.hover\\:text-gray-800:hover{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-green-500:hover{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.focus\\:bg-green-600:focus{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark\\:hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark\\:hover\\:text-gray-300:hover{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}}@media (min-width:640px){.sm\\:mx-auto{margin-left:auto;margin-right:auto}.sm\\:block{display:block}.sm\\:max-w-xl{max-width:36rem}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-12{padding-top:3rem}.sm\\:text-center{text-align:center}.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width:768px){.md\\:mx-auto{margin-left:auto;margin-right:auto}.md\\:mb-12{margin-bottom:3rem}.md\\:max-w-full{max-width:100%}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:text-lg{font-size:1.125rem;line-height:1.75rem}}@media (min-width:1024px){.lg\\:-mx-2{margin-left:-.5rem;margin-right:-.5rem}.lg\\:-ml-28{margin-left:-7rem}.lg\\:-mt-10{margin-top:-2.5rem}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:flex{display:flex}.lg\\:hidden{display:none}.lg\\:w-auto{width:auto}.lg\\:w-32{width:8rem}.lg\\:max-w-screen-xl{max-width:1280px}.lg\\:max-w-2xl{max-width:42rem}.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\\:border-none{border-style:none}.lg\\:px-8{padding-left:2rem;padding-right:2rem}.lg\\:py-20{padding-bottom:5rem;padding-top:5rem}.lg\\:text-3xl{font-size:1.875rem;line-height:2.25rem}}";
 }
 
 
@@ -4014,12 +4386,18 @@ const __modules__ = {
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
   "/@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/routes.mjs": $id_a08c7fdb,
-  "/pages/index.vue?macro=true": $id_5dd70240,
+  "/pages/goodies.vue?macro=true": $id_1a55745f,
   "/components/FullHero.vue": $id_e410c770,
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/components/GridHero.vue": $id_364c4e69,
+  "/pages/index.vue?macro=true": $id_5dd70240,
+  "/pages/notice.vue?macro=true": $id_e69d95a9,
+  "/pages/products.vue?macro=true": $id_5ea83f38,
+  "/pages/goodies.vue": $id_e2e7a3d9,
   "/pages/index.vue": $id_cca58e97,
+  "/pages/notice.vue": $id_1303ccd0,
+  "/pages/products.vue": $id_b29f91be,
   "/@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/router.options.mjs": $id_a36cdf4d,
   "/@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/middleware.mjs": $id_fb648136,
   "/@id/virtual:nuxt:/home/tboot/Work/NUXT_COSMIC_CHILI/.nuxt/root-component.mjs": $id_7b756b99,

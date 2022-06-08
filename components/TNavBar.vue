@@ -27,7 +27,12 @@
       </div>
       <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
         <a v-for="link in navigation" :key="link.name" :href="link.href" class="text-base font-medium text-black hover:text-green-500">
-          {{ link.name }}
+          <RouterLink
+          :to="{name: link.href}"
+          :aria-label="link.name"
+          :title="link.name">
+                    {{ link.name }}
+          </RouterLink>
         </a>
       </div>
     </nav>
@@ -36,8 +41,8 @@
 
 <script setup>
 const navigation = [
-  { name: 'Produits', href: '#' },
-  { name: 'Vos avis', href: '#' },
-  { name: 'Goodies', href: '#' },
+  { name: 'Produits', href: 'products'},
+  { name: 'Vos avis', href: 'notice'},
+  { name: 'Goodies', href: 'goodies'},
 ]
 </script>
