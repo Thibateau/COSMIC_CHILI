@@ -4,6 +4,7 @@ declare module 'vue' {
     'Avis': typeof import("../components/Avis.vue")['default'],
     'CtaAvis': typeof import("../components/CtaAvis.vue")['default'],
     'FullHero': typeof import("../components/FullHero.vue")['default'],
+    'GoodiesCard': typeof import("../components/GoodiesCard.vue")['default'],
     'GridHero': typeof import("../components/GridHero.vue")['default'],
     'ProductCard': typeof import("../components/ProductCard.vue")['default'],
     'TFooter': typeof import("../components/TFooter.vue")['default'],
@@ -17,6 +18,7 @@ declare module 'vue' {
     'LazyAvis': typeof import("../components/Avis.vue")['default'],
     'LazyCtaAvis': typeof import("../components/CtaAvis.vue")['default'],
     'LazyFullHero': typeof import("../components/FullHero.vue")['default'],
+    'LazyGoodiesCard': typeof import("../components/GoodiesCard.vue")['default'],
     'LazyGridHero': typeof import("../components/GridHero.vue")['default'],
     'LazyProductCard': typeof import("../components/ProductCard.vue")['default'],
     'LazyTFooter': typeof import("../components/TFooter.vue")['default'],
@@ -32,6 +34,7 @@ declare module 'vue' {
 export const Avis: typeof import("../components/Avis.vue")['default']
 export const CtaAvis: typeof import("../components/CtaAvis.vue")['default']
 export const FullHero: typeof import("../components/FullHero.vue")['default']
+export const GoodiesCard: typeof import("../components/GoodiesCard.vue")['default']
 export const GridHero: typeof import("../components/GridHero.vue")['default']
 export const ProductCard: typeof import("../components/ProductCard.vue")['default']
 export const TFooter: typeof import("../components/TFooter.vue")['default']
@@ -45,6 +48,7 @@ export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/n
 export const LazyAvis: typeof import("../components/Avis.vue")['default']
 export const LazyCtaAvis: typeof import("../components/CtaAvis.vue")['default']
 export const LazyFullHero: typeof import("../components/FullHero.vue")['default']
+export const LazyGoodiesCard: typeof import("../components/GoodiesCard.vue")['default']
 export const LazyGridHero: typeof import("../components/GridHero.vue")['default']
 export const LazyProductCard: typeof import("../components/ProductCard.vue")['default']
 export const LazyTFooter: typeof import("../components/TFooter.vue")['default']
