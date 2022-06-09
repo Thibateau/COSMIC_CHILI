@@ -5,7 +5,7 @@
         Retours de nos clients ❤️ 
     </p>
     <p class="text-center mb-32 mt-12 text-xl font-normal text-gray-500">
-        Voici les différents retours de nos clients qui ce sont risqués à gouter nos décicieuses cosmic-sauce !
+        Voici les différents retours de nos clients qui ce sont risqués à gouter nos décicieuses cosmic-sauces !
     </p>
     <div class="flex items-center space-y-24 md:space-y-0 flex-col md:flex-row justify-evenly">
         <div class="p-4 relative">
