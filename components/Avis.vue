@@ -14,7 +14,7 @@
                     <img alt="profil" src="/images/buzz.jpg" class="mx-auto object-cover rounded-lg h-40 w-40  border-4 border-white dark:border-gray-800"/>
                 </a>
             </div>
-            <div class="bg-yellow-500  dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-500">
+            <div class="bg-yellow-500  dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-300">
                 <div class="text-center">
                     <p class="text-2xl text-gray-800 dark:text-white">
                         Buzz l'éclair
@@ -36,7 +36,7 @@
                     <img alt="profil" src="/images/thomas.jpg" class="mx-auto object-cover rounded-lg h-40 w-40 border-4 border-white dark:border-gray-800"/>
                 </a>
             </div>
-            <div class="bg-yellow-500 dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-500">
+            <div class="bg-yellow-500 dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-300">
                 <div class="text-center">
                     <p class="text-2xl text-gray-800 dark:text-white">
                         Thomas Pesquet
@@ -58,7 +58,7 @@
                     <img alt="profil" src="/images/anne.webp" class="mx-auto object-cover rounded-lg h-40 w-40 border-4 border-white dark:border-gray-800"/>
                 </a>
             </div>
-            <div class="bg-yellow-500 dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-500">
+            <div class="bg-yellow-500 dark:bg-gray-800 rounded-full px-8 py-4 pt-24 shadow-md shadow-gray-300">
                 <div class="text-center">
                     <p class="text-2xl text-gray-800 dark:text-white">
                         Anne Hathaway
