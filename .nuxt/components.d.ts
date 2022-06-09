@@ -2,9 +2,11 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'Avis': typeof import("../components/Avis.vue")['default'],
+    'CtaAvis': typeof import("../components/CtaAvis.vue")['default'],
     'FullHero': typeof import("../components/FullHero.vue")['default'],
     'GridHero': typeof import("../components/GridHero.vue")['default'],
     'HIcon': typeof import("../components/HIcon.vue")['default'],
+    'ProductCard': typeof import("../components/ProductCard.vue")['default'],
     'TFooter': typeof import("../components/TFooter.vue")['default'],
     'TNavBar': typeof import("../components/TNavBar.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
@@ -14,9 +16,11 @@ declare module 'vue' {
     'ServerPlaceholder': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyAvis': typeof import("../components/Avis.vue")['default'],
+    'LazyCtaAvis': typeof import("../components/CtaAvis.vue")['default'],
     'LazyFullHero': typeof import("../components/FullHero.vue")['default'],
     'LazyGridHero': typeof import("../components/GridHero.vue")['default'],
     'LazyHIcon': typeof import("../components/HIcon.vue")['default'],
+    'LazyProductCard': typeof import("../components/ProductCard.vue")['default'],
     'LazyTFooter': typeof import("../components/TFooter.vue")['default'],
     'LazyTNavBar': typeof import("../components/TNavBar.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
@@ -28,9 +32,11 @@ declare module 'vue' {
   }
 }
 export const Avis: typeof import("../components/Avis.vue")['default']
+export const CtaAvis: typeof import("../components/CtaAvis.vue")['default']
 export const FullHero: typeof import("../components/FullHero.vue")['default']
 export const GridHero: typeof import("../components/GridHero.vue")['default']
 export const HIcon: typeof import("../components/HIcon.vue")['default']
+export const ProductCard: typeof import("../components/ProductCard.vue")['default']
 export const TFooter: typeof import("../components/TFooter.vue")['default']
 export const TNavBar: typeof import("../components/TNavBar.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -40,9 +46,11 @@ export const ClientOnly: typeof import("../node_modules/nuxt/dist/app/components
 export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyAvis: typeof import("../components/Avis.vue")['default']
+export const LazyCtaAvis: typeof import("../components/CtaAvis.vue")['default']
 export const LazyFullHero: typeof import("../components/FullHero.vue")['default']
 export const LazyGridHero: typeof import("../components/GridHero.vue")['default']
 export const LazyHIcon: typeof import("../components/HIcon.vue")['default']
+export const LazyProductCard: typeof import("../components/ProductCard.vue")['default']
 export const LazyTFooter: typeof import("../components/TFooter.vue")['default']
 export const LazyTNavBar: typeof import("../components/TNavBar.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <FullHero />
-    <GridHero />
+    <ProductCard />
   </div>
 </template>
