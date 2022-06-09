@@ -7,8 +7,8 @@
 
     <div class="mt-12 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 lg:gap-x-8">
       <div class="group relative">
-        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300">
-          <img src="/images/pimentosauc.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover">
+        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300">
+          <img src="/images/pimentosauc.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2">
         </div>
         <h3 class="mt-4 text-base font-semibold text-gray-900">
           <a href="#">
@@ -16,13 +16,13 @@
             Black Basic Tee
           </a>
         </h3>
-        <p class="mt-1 text-sm text-gray-500">$32</p>
+        <p class="mt-1 text-m text-gray-500">3,99€</p>
       </div>
 
       <!-- More products... -->
             <div class="group relative">
-        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300">
-          <img src="/images/salsa.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover">
+        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300">
+          <img src="/images/salsa.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2">
         </div>
         <h3 class="mt-4 text-base font-semibold text-gray-900">
           <a href="#">
@@ -30,11 +30,11 @@
             Black Basic Tee
           </a>
         </h3>
-        <p class="mt-1 text-sm text-gray-500">$32</p>
+        <p class="mt-1 text-m text-gray-500">4,50€</p>
       </div>
             <div class="group relative">
-        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300">
-          <img src="/images/srirasha.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover">
+        <div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300">
+          <img src="/images/srirasha.png" alt="Model wearing women&#039;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2">
         </div>
         <h3 class="mt-4 text-base font-semibold text-gray-900">
           <a href="#">
@@ -42,7 +42,7 @@
             Black Basic Tee
           </a>
         </h3>
-        <p class="mt-1 text-sm text-gray-500">$32</p>
+        <p class="mt-1 text-m text-gray-500">5,99€</p>
       </div>
     </div>
 

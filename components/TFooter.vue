@@ -3,19 +3,28 @@
         <div class="max-w-screen-xl mx-auto px-4">
             <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li class="my-2">
+                    <RouterLink
+                    :to="{name: 'products'}">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
                         Produits
                     </a>
+                    </RouterLink>
                 </li>
                 <li class="my-2">
+                    <RouterLink
+                    :to="{name: 'notice'}">
+                    <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
+                        Vos avis
+                    </a>
+                    </RouterLink>
+                </li>
+                <li class="my-2">
+                    <RouterLink
+                    :to="{name: 'goodies'}">
                     <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
                         Goodies
                     </a>
-                </li>
-                <li class="my-2">
-                    <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
-                        Nos avis
-                    </a>
+                    </RouterLink>
                 </li>
             </ul>
             <div class="pt-8 flex max-w-xs mx-auto items-center justify-between">

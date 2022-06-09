@@ -3227,7 +3227,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-white" }, _attrs))}><div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Nos sauces Cosmic-Rocket</h2></div><div class="mt-12 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 lg:gap-x-8"><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300"><img src="/images/pimentosauc.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-sm text-gray-500">\$32</p></div><!-- More products... --><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300"><img src="/images/salsa.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-sm text-gray-500">\$32</p></div><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-300 shadow-md shadow-gray-300"><img src="/images/srirasha.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-sm text-gray-500">\$32</p></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all favorites<span aria-hidden="true"> →</span></a></div></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-white" }, _attrs))}><div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Nos sauces Cosmic-Rocket</h2></div><div class="mt-12 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 lg:gap-x-8"><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300"><img src="/images/pimentosauc.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-m text-gray-500">3,99€</p></div><!-- More products... --><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300"><img src="/images/salsa.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-m text-gray-500">4,50€</p></div><div class="group relative"><div class="w-full h-96 rounded-lg overflow-hidden group-hover:opacity-75 sm:h-auto sm:aspect-w-2 sm:aspect-h-3 bg-yellow-500 shadow-md shadow-gray-300"><img src="/images/srirasha.png" alt="Model wearing women&#39;s black cotton crewneck tee." class="w-full h-full object-center object-cover mt-4 mb-2"></div><h3 class="mt-4 text-base font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span> Black Basic Tee </a></h3><p class="mt-1 text-m text-gray-500">5,99€</p></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all favorites<span aria-hidden="true"> →</span></a></div></div></div>`)
 }
 
 
@@ -4462,7 +4462,57 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<footer${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-white dark:bg-gray-800 w-full py-8" }, _attrs))}><div class="max-w-screen-xl mx-auto px-4"><ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between"><li class="my-2"><a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"> Produits </a></li><li class="my-2"><a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"> Goodies </a></li><li class="my-2"><a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"> Nos avis </a></li></ul><div class="pt-8 flex max-w-xs mx-auto items-center justify-between"><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/fb.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/insta.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/twitter.gif"></a></div><div class="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center"> Created by Tboot </div></div></footer>`)
+  const _component_RouterLink = __vite_ssr_import_0__.resolveComponent("RouterLink")
+
+  _push(`<footer${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-white dark:bg-gray-800 w-full py-8" }, _attrs))}><div class="max-w-screen-xl mx-auto px-4"><ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between"><li class="my-2">`)
+  _push(__vite_ssr_import_1__.ssrRenderComponent(_component_RouterLink, { to: {name: 'products'} }, {
+    default: __vite_ssr_import_0__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"${_scopeId}> Produits </a>`)
+      } else {
+        return [
+          __vite_ssr_import_0__.createVNode("a", {
+            class: "text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200",
+            href: "#"
+          }, " Produits ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="my-2">`)
+  _push(__vite_ssr_import_1__.ssrRenderComponent(_component_RouterLink, { to: {name: 'notice'} }, {
+    default: __vite_ssr_import_0__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"${_scopeId}> Vos avis </a>`)
+      } else {
+        return [
+          __vite_ssr_import_0__.createVNode("a", {
+            class: "text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200",
+            href: "#"
+          }, " Vos avis ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li><li class="my-2">`)
+  _push(__vite_ssr_import_1__.ssrRenderComponent(_component_RouterLink, { to: {name: 'goodies'} }, {
+    default: __vite_ssr_import_0__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#"${_scopeId}> Goodies </a>`)
+      } else {
+        return [
+          __vite_ssr_import_0__.createVNode("a", {
+            class: "text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200",
+            href: "#"
+          }, " Goodies ")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`</li></ul><div class="pt-8 flex max-w-xs mx-auto items-center justify-between"><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/fb.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/insta.gif"></a><a href="#" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"><img class="w-6 h-6" src="/images/twitter.gif"></a></div><div class="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center"> Created by Tboot </div></div></footer>`)
 }
 
 
