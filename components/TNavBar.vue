@@ -4,8 +4,11 @@
       <div class="w-full py-6 flex items-center justify-between border-b border-white lg:border-none">
         <div class="flex items-center">
           <a href="#">
+              <RouterLink 
+            :to="{name: 'index'}">
             <span class="sr-only">Spicy-Rocket</span>
             <img class="h-10 w-auto" src="/images/logochili.png" alt="" />
+            </RouterLink>
           </a>
           <div class="hidden ml-10 space-x-8 lg:block">
             <a v-for="link in navigation" :key="link.name" :href="link.href" class="text-base font-medium text-black hover:text-green-500">
@@ -31,7 +34,7 @@
           :to="{name: link.href}"
           :aria-label="link.name"
           :title="link.name">
-                    {{ link.name }}
+          {{ link.name }}
           </RouterLink>
         </a>
       </div>

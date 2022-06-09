@@ -1,6 +1,6 @@
 <template>
 
-<div class="p-4 pt-12 ">
+<div class="p-4 pt-12 px-40">
     <p class="text-center text-3xl font-bold text-gray-800">
         Retours de nos clients ❤️ 
     </p>
